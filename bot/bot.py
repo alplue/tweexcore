@@ -233,6 +233,19 @@ class Bot(object):
 
     # Commands
 
+
+
+
+
+
+    async def _testing(self, message):
+        """print your id"""
+        await self.client.send_message(
+            message.channel, "yup, its working" % message.author.id)
+
+
+
+
     async def _help(self, message):
         """print the help message"""
         msg = 'Available commands, all preceded by `%s`:\n' % self.conf['prefix']
