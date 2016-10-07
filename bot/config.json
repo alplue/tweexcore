@@ -1,0 +1,10 @@
+{
+    "email": "liluyee@yandex.com",
+    "password": "ampora11",
+    "admin_id": "",
+    "prefix": "~~",
+    "music": {
+        "avconv": false,
+        "opus": "path_to_opus_lib"
+    }
+}
